@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head><link href="style.css" rel="stylesheet" type="text/css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LAB01-</title>
+</head>
+<body>
+    <h1>Travel Authorization Form</h1>
+    <form>
+        <h2>Seccion A: Información del cliente</h2>
+        
+            <label for="name"> Cargo:</label>
+            
+            <input
+                type="text"
+                style="text-transform: uppercase"
+                name="name"
+                id="name"
+                min="4"
+                max="100"
+                
+            />
+        
+    </div>
+    <br>
+
+        <label for="name"> Nombre:</label>
+        <input
+            type="text"
+            style="text-transform: uppercase"
+            name="name"
+            id="name"
+            min="4"
+            max="100"
+        />
+    
+    <br>
+        <label for="name"> Primer apellido:</label>
+        <input
+            type="text"
+            style="text-transform: uppercase"
+            name="name"
+            id="name"
+            min="4"
+            max="100"
+        />
+    <br>
+        <label for="name"> Segundo apellido:</label>
+        <input
+            type="text"
+            style="text-transform: uppercase"
+            name="name"
+            id="name"
+            min="4"
+            max="100"
+        />
+    <br>
+        <label for="email">Correo electrico:</label>
+        <input
+            type="email"
+            name="email"
+            id="email"
+            placeholder="tecsup.aqp@tecsup.edu.pe"
+        />
+    <br>
+        <label for="email">Numero de telefono:</label>
+        <input 
+            type="number" 
+            name="numero" 
+            max="999999999" 
+            max="99999999" />
+    
+    </form>
+    <h2>Seccion B: Información del viaje</h2>
+    <form>
+    
+        <label for="aerolinea" id="aerolinea">Nombre de la aerolinea</label>
+        <select name="Seleccione una aerolinea">
+            <option value="0">Seleccione una aerolinea</option>
+            <option value="1">LATAM</option>
+            <option value="2">Aeromexico</option>
+            <option value="3">Copa Airlines</option>
+            <option value="3">Condor</option>
+        </select>
+    <br>
+        <label for="name">Destino:</label>
+        <input type="text" name="name" id="name" />
+    <br>
+        <label for="fecha">Fecha de salida:</label>
+        <input type="date" name="fecha" id="fecha" />
+    <br>
+        <label for="fecha">Fecha de regreso:</label>
+        <input type="date" name="fecha" id="fecha" />
+    <br>
+        <label for="number">Coste estimado:</label>
+        <input type="number" id="costo" name="costo" min="100" max="1000" />
+    <br>
+    <br>
+        <label for="cliente">¿Incluye la visita al cliente?</label>
+        <input type="checkbox" name="casilla" />
+    
+    <p style="margin-left:  50px;">
+        Gastos adicionales estimados</p>
+    
+        <label for="number">Coste estimado:</label>
+        <input type="number" id="gastos" name="gastos" />
+
+    <br>
+        <label for="number">Hotel:</label>
+        <input type="number" id="gastos" name="gastos" />
+    <br>
+        <label for="number">Comidas:</label>
+        <input type="number" id="gastos" name="gastos" />
+    <br>
+        <label for="number">Hotel:</label>
+        <input type="number" id="gastos" name="gastos" />
+    <br>
+        <label for="number">Total estimado:</label>
+        <input type="number" id="gastos" name="gastos" placeholder="0.00€" />
+    
+    <div>
+        <label for="number">Metodo de pago utilizados</label><br />
+        <input type="radio" name="boton" value="1" />Metalico<br />
+        <input type="radio" name="boton" value="2" />Tarjeta de credito<br />
+        <input type="radio" name="boton" value="3" />Cheque
+    </div>
+    <div>
+        
+        <label for="number">Proposito del viaje</label>
+        <br>
+        <textarea 
+        style="margin-left:  120px;" name="texto" rows="10" cols="100"></textarea>
+    </div>
+</form>
+    <input type="submit" name="Enviar" 
+    style="background-color: rgb(0, 183, 255) "/>
+</section>
+    </body>
+</html>

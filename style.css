@@ -1,0 +1,48 @@
+h1{
+    font-size:2rem;
+    font-weight: bold;
+    text-align: center;
+    background-color: rgb(120, 180, 236);
+    text-transform: uppercase;
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 2px;
+    color: rgb(255, 255, 255);
+}
+h2{
+    font-size: xx-large ;
+    color: rgb(61, 148, 248);
+    text-decoration-line: underline;
+
+}
+section{
+    background-color: white;
+}
+p{
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    width: 20rem;
+    margin: 0.5rem;
+}
+label{
+    font-size: 100%;
+    margin-bottom: 0.3rem;
+    color: rgb(0, 0, 0);
+    display: inline-block;
+    width: 120px;
+}
+input{
+    font-size: 1rem;
+    height: 1.2rem;
+    padding-left: 0.5rem;
+    border: 0.5px solid black;
+    border-radius: 5px;
+    
+}
+select{
+    font-size: 1rem;
+    height: 1.2rem;
+    padding-left: 0.5rem;
+    border: 0.5px solid black;
+    border-radius: 5px;
+    }
